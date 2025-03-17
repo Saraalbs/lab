@@ -4,38 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
+    <div class="nav-bar">
         <ul>
             <li><a href="#structure">Day Structure</a></li>
             <li><a href="#team">Team</a></li>
             <li><a href="#schedule">Schedule</a></li>
         </ul>
-    </nav>
-    <header>
-        <h1><img src="/ironhack-skydive-logo.png" alt="ironhack-skydive-logo">IronSkydive</h1>
+    </div>
+    <header class="background">
+        <h1><img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png" alt="ironhack-skydive-logo">IronSkydive</h1>
         <h2>Let the trip begin</h2>
-        <aside><em>"The best experience of our lives"</em></aside>
-        <p>Ariel Quiñones & Gonzalo Manrique, Ironhack founders</p>
+        <aside class="quote"><em>"The best experience of our lives"</em>
+        <p>Ariel Quiñones & Gonzalo Manrique, Ironhack founders</p></aside>
     </header>
-    <section>
+    <section id="Información general" class="dark-background">
         <article>
             <h3>Hello!</h3>
-            <p>Welcome to IronSkydiving, the greatest adventure of your life.</p>
-            <a href="#">Learn more</a>
+            <p class="text">Welcome to IronSkydiving, the greatest adventure of your life.></p>
+            <a href="#" class="link-btn">Learn more</a>
             <h3>About us</h3>
-            <p>We like programming websites, but we also love the adrenaline rush.</p>
-            <a href="#">Watch video</a>
+            <p class="text">We like programming websites, but we also love the adrenaline rush.></p>
+            <a href="#" class="link-btn">Watch video</a>
             <h3>Wanna join?</h3>
-            <p>Sign up so you can become a better programmer, and cooler person.</p>
-            <a href="#">Register</a>
+            <p class="text">Sign up so you can become a better programmer, and cooler person.></p>
+            <a href="#" class="link-btn">Register</a>
         </article>
     </section>
-    <section>
+    <section id="Estructura" class="service-box">
         <h3>How do we structure the day?</h3>
         <div>
-            <article>
+            <article class="service-box">
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png" alt="training logo">
                 <h4>1.Training</h4>
                 <p>We teach you everything you need to know to jump from a plane.</p>
@@ -51,20 +53,20 @@
             </article>
         </div>
     </section>
-    <section>
+    <section id="Equipo" class="dark-background">
         <h3>Team</h3>
-        <p>Our team collectively has 75 years of experience. Odds are, when you jump out of the plane with these professionals, you won't go splat.</p>
+        <p class="section-text">Our team collectively has 75 years of experience. Odds are, when you jump out of the plane with these professionals, you won't go splat.</p>
         <hr>
         <div>
-            <article><strong>Harold Rothstein</strong></article>
+            <article class="member-name" class="Equipo"><strong>Harold Rothstein</strong></article>
             <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg" alt="foto Harold">
-            <article><strong>Susan Phillips</strong></article>
+            <article class="member-name"><strong>Susan Phillips</strong></article>
             <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7e70a4e59b941093.jpg" alt="foto Susan">
-            <article><strong>Taylor Roberts</strong></article>
+            <article class="member-name"><strong>Taylor Roberts</strong></article>
             <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b0611da55093b7dc421.jpg" alt="foto Taylor">
         </div>
     </section>
-    <section>
+    <section id="Horario">
         <h3>Schedule</h3>
         <table>
             <tr>
@@ -106,10 +108,10 @@
         </table>
         <h3>Schedule a Time Slot</h3>
     </section>
-    <footer>
+    <footer class="dark-background footer">
         <section>
             <h5>Contact Information</h5>
-            <address><br>IronSkydive<br>33 Rue la Fayette,<br>75009 París,<br>Francia<br>+33 (0) 619 193 088</address>
+            <address class="address" br>IronSkydive<br>33 Rue la Fayette,<br>75009 París,<br>Francia<br>+33 (0) 619 193 088</address>
             <h5>Follow us</h5>
             <ul>
                 <li><a href="#twitter" target="https://x.com/?lang=es">Twitter</a></li>
